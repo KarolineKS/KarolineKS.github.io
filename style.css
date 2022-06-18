@@ -1,9 +1,16 @@
+body{
+    background-color: #F3EBA5;
+}
+
 .nav-links li{
     display: inline-block;
     margin-right: 60px;
-    /*border: solid green;*/
-    margin-top: 10px;
-    margin-bottom: 10px; 
+    background-color: #9BD6D9;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    border: solid 1px rgb(51, 50, 50);
   
 }
 
@@ -21,11 +28,11 @@
 nav ul li a{
     text-decoration: none;
     font-size: 20px;
-    color: black;
+    color:rgb(51, 50, 50);
 }
 
-nav {
-    border: solid blue;
+.nav {
+    background-color: #B4A8E0;
 }
 
 
