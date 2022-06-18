@@ -14,13 +14,18 @@ body{
 .header{
     background-image: linear-gradient(to right,#ED8E89,#F7B685,#F3EBA5,#94C691,#9BD6D9,#B4A8E0);
     position: relative;
+    border-radius: 20px;
     
 }
 
 .nome{
     position: absolute;
-    top: 15%;
-    left: 40%;
+    top: 24px;
+    left: 20%;
+    padding: 28px 295px;
+    background-color: rgba(133, 160, 160, 0.596) ;
+    border-radius: 20px;
+    color:rgb(75, 56, 56)
 }
 
 .nav-links li{
@@ -31,8 +36,15 @@ body{
     border-radius: 15px;
     margin-top: 20px;
     margin-bottom: 20px; 
-    border: solid 1px rgb(32, 32, 32);
-  
+    border: solid 1px rgb(74, 131, 148);
+    position:relative;
+}
+
+.posicionamento{
+    position: absolute;
+    left: 50px;
+    top: 10px
+    
 }
 
 .nav-links li:nth-last-child(1){
@@ -43,7 +55,8 @@ body{
 .nav-links{
     padding: 0;
     text-align: center;
-    background-color: rgb(129, 123, 123);
+    background-color: rgba(133, 160, 160, 0.596);
+    border-radius: 20px;
 }
 
 nav ul li a{
