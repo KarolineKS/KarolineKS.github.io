@@ -3,26 +3,35 @@ body{
 }
 
 .imagem-perfil{
-    width: 250px;
+    width: 200px;
     border-radius: 30px;
     margin-left: 20px;
     margin-top: 20px;
-    border: solid 3px rgb(51, 50, 50);
+    border: solid 2px rgb(51, 50, 50);
+    margin-bottom: 5px;
 }
 
 .header{
     background-image: linear-gradient(to right,#ED8E89,#F7B685,#F3EBA5,#94C691,#9BD6D9,#B4A8E0);
+    position: relative;
+    
+}
+
+.nome{
+    position: absolute;
+    top: 15%;
+    left: 40%;
 }
 
 .nav-links li{
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 50px;
     background-color: #9BD6D9;
     padding: 10px;
     border-radius: 15px;
     margin-top: 20px;
     margin-bottom: 20px; 
-    border: solid 1px rgb(51, 50, 50);
+    border: solid 1px rgb(32, 32, 32);
   
 }
 
@@ -32,9 +41,9 @@ body{
 
 
 .nav-links{
-    /*border: solid black;*/
     padding: 0;
     text-align: center;
+    background-color: rgb(129, 123, 123);
 }
 
 nav ul li a{
@@ -43,9 +52,6 @@ nav ul li a{
     color:rgb(51, 50, 50);
 }
 
-.nav {
-    background-color: #B4A8E0;
-}
 
 
 
