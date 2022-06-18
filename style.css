@@ -1,0 +1,15 @@
+.nav-links li{
+    display: inline-block;
+    margin-right: 100px;
+    border: solid green;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.nav-links{
+    border: solid black;
+    text-align: center;
+
+}
