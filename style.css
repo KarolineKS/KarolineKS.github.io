@@ -2,6 +2,10 @@ body{
     background-color: #F3EBA5;
 }
 
+.header{
+    background-image: linear-gradient(to right,#ED8E89,#F7B685,#F3EBA5,#94C691,#9BD6D9,#B4A8E0);
+}
+
 .nav-links li{
     display: inline-block;
     margin-right: 60px;
@@ -33,6 +37,7 @@ nav ul li a{
 
 .nav {
     background-color: #B4A8E0;
+    margin: 0;
 }
 
 
