@@ -1,11 +1,13 @@
 body{
     background-color: #F3EBA5;
+    font-family:'Joan', serif;
+    color: rgb(75, 56, 56);
 }
 
 .imagem-perfil{
     width: 200px;
-    border-radius: 30px;
-    margin-left: 20px;
+    border-radius: 50%;
+    margin-left: 10%;
     margin-top: 20px;
     border: solid 2px rgb(51, 50, 50);
     margin-bottom: 5px;
@@ -14,18 +16,17 @@ body{
 .header{
     background-image: linear-gradient(to right,#ED8E89,#F7B685,#F3EBA5,#94C691,#9BD6D9,#B4A8E0);
     position: relative;
-    border-radius: 20px;
-    
+    border-radius: 20px;    
 }
 
 .nome{
     position: absolute;
     top: 24px;
-    left: 20%;
-    padding: 28px 295px;
-    background-color: rgba(133, 160, 160, 0.596) ;
+    left: 30%;
     border-radius: 20px;
-    color:rgb(75, 56, 56)
+    color:rgb(75, 56, 56);
+    letter-spacing: 5px;
+    font-size: 20px;
 }
 
 .nav-links li{
@@ -37,15 +38,8 @@ body{
     margin-top: 20px;
     margin-bottom: 20px; 
     border: solid 1px rgb(74, 131, 148);
-    position:relative;
 }
 
-.posicionamento{
-    position: absolute;
-    left: 50px;
-    top: 10px
-    
-}
 
 .nav-links li:nth-last-child(1){
     margin-right: 0;
@@ -62,7 +56,7 @@ body{
 nav ul li a{
     text-decoration: none;
     font-size: 20px;
-    color:rgb(51, 50, 50);
+    color:rgb(75, 56, 56)
 }
 
 
