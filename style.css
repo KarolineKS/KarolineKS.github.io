@@ -63,19 +63,35 @@ nav ul li a{
 }
 
 .nav-links-redessociais{
-    background-color: #94C691;
-    padding: 20px;
-    position: fixed;
-    top:53%;
-    left: 80%;
+    background-color: #f6c08b;
+    position:fixed;
+    top:7%;
+    left:95%;
     border-radius: 15px;
+    border: solid 2px #F3EBA5;
 }
 
-.nav-links-redessociais a{
-    color:rgb(53, 41, 41);
-    line-height: 40px;
+
+.nav-links-redessociais a:hover{
+    padding-left: 10px;
+    background-color:#94C691;
+    padding-top: 38px;
 }
 
-.icone-linkedin{
-    width: 30px;
+.icone_linkedin{
+    width: 50px;
+    margin-left: 8px;
+    margin-top: 18px;
 }
+.icone_insta{
+    width: 40px;
+    margin-left: 14px;
+    margin-top: 5px;
+    padding-right: 5px;
+}
+.icone_git{
+    width: 65px;
+    margin-left: 3px;
+}
+
+
