@@ -1,7 +1,7 @@
 body {
   background-color: #f3eba5;
   font-family: "Joan", serif;
-  color: rgb(49, 48, 48);
+  color: rgb(26, 24, 24);
 }
 
 .imagem-perfil {
@@ -137,7 +137,7 @@ main {
   border-radius: 15px;
 }
 
-.underline_footer {
+.underline{
   text-decoration: underline;
 }
 .section-sobremim {
@@ -149,9 +149,8 @@ main {
   margin-top: 20px;
   border-radius: 15px;
   border: solid 2px #474745;
-  color: rgb(26, 24, 24);
 }
-.sobre_mim {
+.texto_centralizado {
   text-align: center;
 }
 .ola{
@@ -161,4 +160,14 @@ main {
     position: absolute;
     left: 105px;
     top: 79%;
+}
+.projetos{
+    position: absolute;
+    top: 63%;
+    left: 56%;
+    background-color: #94c691;
+    border-radius: 15px;
+    border: solid 2px #474745;
+    padding: 290px 20px;
+    font-size: 18px;
 }
