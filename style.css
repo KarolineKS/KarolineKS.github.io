@@ -20,12 +20,12 @@ body{
 
 .nome{
     position: absolute;
-    top: 24px;
+    top: 50px;
     left: 30%;
     border-radius: 20px;
     color:rgb(75, 56, 56);
     letter-spacing: 5px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .nav-links{
@@ -57,14 +57,25 @@ nav ul li a{
 
 }
 
-.article{
-    position: relative;
-}
-
 .section-sobremim{
     font-size: 18px;
     margin-left: 30px;
 }
 
+.nav-links-redessociais{
+    background-color: #94C691;
+    padding: 20px;
+    position: fixed;
+    top:53%;
+    left: 80%;
+    border-radius: 15px;
+}
 
+.nav-links-redessociais a{
+    color:rgb(53, 41, 41);
+    line-height: 40px;
+}
 
+.icone-linkedin{
+    width: 30px;
+}
