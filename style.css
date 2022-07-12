@@ -1,79 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #f3eba5;
   font-family: "Joan", serif;
-  color: rgb(26, 24, 24);
+}
+
+.header {
+  background: linear-gradient(110deg, #333333 60%,  rgba(0, 212, 255) 100% 60%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  
 }
 
 .imagem-perfil {
   width: 200px;
-  border-radius: 50%;
-  margin-left: 10%;
-  margin-top: 20px;
-  border: solid 2px #f3eba5;
-}
-
-.header {
-  background-image: linear-gradient(
-    to right,
-    #ed8e89,
-    #f7b685,
-    #f3eba5,
-    #94c691,
-    #9bd6d9,
-    #b4a8e0
-  );
-  position: relative;
-  border-radius: 20px;
-  height: 329px;
-  border: solid 2px #474745;
+  border-radius: 10px;
+  border: solid 2px;
+  order: 2;
 }
 
 .nome {
-  position: absolute;
-  top: 60px;
-  left: 30%;
-  border-radius: 20px;
-  color: rgb(75, 56, 56);
+  min-height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+  color: #f3eba5;
   letter-spacing: 5px;
   font-size: 15px;
 }
 
 .nav-links {
-  padding: 0;
+  border-bottom: solid 2px #f3eba5;
+  width: 100%;
+  position: fixed;
   text-align: center;
-  background-color: rgba(133, 160, 160, 0.596);
-  border-radius: 20px;
+  background-color: #474745;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.nav-links div {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links h1 {
+  color: #f3eba5;
+  padding-left: 150px;
+  letter-spacing: 6px;
+  font-size: 30px;
 }
 
 .nav-links li {
-  display: inline-block;
-  margin-right: 150px;
-  background-image: linear-gradient(
-    to top,
-    #ed8e89,
-    #f7b685,
-    #f3eba5,
-    #94c691,
-    #9bd6d9,
-    #b4a8e0
-  );
+  background-color: #94c691;
   padding: 8px;
-  border-radius: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: solid 1px #f3eba5;
-}
-
-.nav-links li:nth-last-child(1) {
-  margin-right: 0;
+  border-radius: 5px;
+  border: solid 1px #333333;
+  list-style: none;
 }
 
 nav ul li a {
   text-decoration: none;
-  font-size: 20px;
-  color: rgb(53, 41, 41);
+  font-size: 16px;
+  color: #474745;
   font-family: "Joan", serif;
 }
+
 main {
   margin-left: 5px;
 }
@@ -162,12 +163,8 @@ main {
     top: 79%;
 }
 .projetos{
-    position: absolute;
-    top: 63%;
-    left: 56%;
     background-color: #94c691;
     border-radius: 15px;
     border: solid 2px #474745;
-    padding: 290px 20px;
     font-size: 18px;
 }
