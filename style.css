@@ -1,38 +1,51 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: padding-box;
 }
 
 body {
-  font-family: "Joan", serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .header {
-  background: linear-gradient(110deg, #333333 60%,  rgba(0, 212, 255) 100% 60%);
+  background: linear-gradient(110deg, #333333 60%, rgba(0, 212, 255) 60%);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   height: 100vh;
-  
+  width: 100%;
+}
+
+.header > div {
+  display: flex;
+  margin-top: 10%;
+  min-height: 35%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .imagem-perfil {
   width: 200px;
-  border-radius: 10px;
-  border: solid 2px;
+  height: 200px;
+  border-radius: 50%;
+  border: #333333 5px solid;
   order: 2;
 }
 
 .nome {
-  min-height: 30%;
+  text-align: center;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding: 30px;
   color: #f3eba5;
-  letter-spacing: 5px;
-  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .nav-links {
@@ -55,35 +68,26 @@ body {
 
 .nav-links h1 {
   color: #f3eba5;
-  padding-left: 150px;
-  letter-spacing: 6px;
+  margin-left: 5%;
   font-size: 30px;
+  letter-spacing: 3px;
 }
 
 .nav-links li {
-  background-color: #94c691;
-  padding: 8px;
-  border-radius: 5px;
-  border: solid 1px #333333;
   list-style: none;
+  margin-top: 5px;
 }
 
 nav ul li a {
   text-decoration: none;
   font-size: 16px;
-  color: #474745;
-  font-family: "Joan", serif;
-}
-
-main {
-  margin-left: 5px;
+  color: #f3eba5;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
 .nav-links-redessociais {
   background-color: #f6c08b;
-  position: fixed;
-  top: 7%;
-  left: 95%;
   border-radius: 15px;
   border: solid 2px #f3eba5;
 }
@@ -99,12 +103,14 @@ main {
   margin-left: 8px;
   margin-top: 18px;
 }
+
 .icone_insta {
   width: 40px;
   margin-left: 14px;
   margin-top: 5px;
   padding-right: 5px;
 }
+
 .icone_git {
   width: 65px;
   margin-left: 3px;
@@ -127,6 +133,7 @@ main {
   line-height: 30px;
   border: solid 2px #474745;
 }
+
 .footer_posicionamento {
   margin-left: 30px;
   margin-bottom: px;
@@ -138,9 +145,6 @@ main {
   border-radius: 15px;
 }
 
-.underline{
-  text-decoration: underline;
-}
 .section-sobremim {
   font-size: 18px;
   width: 50%;
@@ -151,20 +155,24 @@ main {
   border-radius: 15px;
   border: solid 2px #474745;
 }
+
 .texto_centralizado {
   text-align: center;
 }
-.ola{
-    font-size: 1.5em;
+
+.ola {
+  font-size: 1.5em;
 }
-.section-sobremim img{
-    position: absolute;
-    left: 105px;
-    top: 79%;
+
+.section-sobremim img {
+  position: absolute;
+  left: 105px;
+  top: 79%;
 }
-.projetos{
-    background-color: #94c691;
-    border-radius: 15px;
-    border: solid 2px #474745;
-    font-size: 18px;
+
+.projetos {
+  background-color: #94c691;
+  border-radius: 15px;
+  border: solid 2px #474745;
+  font-size: 18px;
 }
