@@ -142,10 +142,10 @@ nav ul li a:hover {
 }
 
 .competencias {
-  background-color: #333333;
+  background-color: rgba(0, 212, 255) ;
   display: flex;
   justify-content: space-around;
-  color: #f3eba5;
+  color: #333333;
   padding: 20px;
 }
 
@@ -155,11 +155,12 @@ section h4 {
 }
 
 .competencias section {
-  border: #9bd6d9 2px solid;
+  border: #333333 2px solid;
   margin-left: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 10px 10px 5px #333333;
 }
 
 .projetos {
@@ -174,6 +175,33 @@ section h4 {
 .cards-projetos{
   margin-top: 60px;
   display: flex;
+}
+.card {
+  box-shadow: 10px 10px  5px #333333;
+}
+
+.card-pj {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text, .card-title {
+  color: #333333;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.btn-projeto{
+
+  background-color: rgba(0, 212, 255);
+  color: #333333;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px  #333333;
 }
 
 .nav-links-redessociais a:hover {
