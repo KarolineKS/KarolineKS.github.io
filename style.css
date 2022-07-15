@@ -9,13 +9,27 @@ body {
 }
 
 .header {
-  background: linear-gradient(110deg, #333333 60%, rgba(0, 212, 255) 60%);
+  background: linear-gradient(110deg, #333333 60%, rgba(0, 212, 255) 40%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   height: 100vh;
   width: 100%;
+  border-bottom: 1px solid #333333;
+}
+
+.seta {
+  font-size: 40px;
+  color: #9bd6d9;
+  animation: animar 1500ms infinite;
+}
+
+@keyframes animar {
+  100% {
+    opacity: 0.1;
+    transform: translateY(20px);
+  }
 }
 
 .header > div {
@@ -27,12 +41,19 @@ body {
   align-items: center;
 }
 
+
 .imagem-perfil {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  border: #333333 5px solid;
+  border-radius: 50%; 
   order: 2;
+  border: 4px solid #333333;
+}
+
+hr {
+  background-color: black;
+  height: 2px;
+  width: 80%;
 }
 
 .nome {
@@ -49,7 +70,7 @@ body {
 }
 
 .nav-links {
-  border-bottom: solid 2px #f3eba5;
+  border-bottom: solid 1px white;
   width: 100%;
   position: fixed;
   text-align: center;
@@ -61,7 +82,7 @@ body {
 }
 
 .nav-links div {
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: space-around;
 }
@@ -84,12 +105,69 @@ nav ul li a {
   color: #f3eba5;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
+  letter-spacing: 2px;
+  
 }
 
-.nav-links-redessociais {
-  background-color: #f6c08b;
-  border-radius: 15px;
-  border: solid 2px #f3eba5;
+nav ul li a:hover {
+  color: #9bd6d9;
+}
+
+.section-sobremim {
+  padding: 60px;
+  font-size: 18px;
+  height: 100vh;
+  line-height: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+#eu-e-arara {
+  width: 250px;
+  border: 3px solid #333333;
+}
+
+.section-sobremim p {
+  color: #333333;
+  width: 50%;
+  margin-left: 30px;
+  border-left: #333333 solid 2px;
+  padding: 55px;
+}
+
+.ola {
+  font-size: 1.5em;
+}
+
+.competencias {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+  color: #f3eba5;
+  padding: 20px;
+}
+
+section h4 {
+  padding: 20px;
+  text-align: center;
+}
+
+.competencias section {
+  border: #9bd6d9 2px solid;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projetos {
+  margin-top: 40px;
+  font-size: 18px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .nav-links-redessociais a:hover {
@@ -118,61 +196,19 @@ nav ul li a {
 
 .footer {
   padding: 10px 5px 4px 0px;
-  background-image: linear-gradient(
-    to right,
-    #ed8e89,
-    #f7b685,
-    #f3eba5,
-    #94c691,
-    #9bd6d9,
-    #b4a8e0
-  );
-  border-radius: 15px;
-  color: rgb(75, 56, 56);
+  background-color: #474745;
+  color: #f3eba5;
   font-size: 18px;
   line-height: 30px;
-  border: solid 2px #474745;
+  display: flex;
 }
 
-.footer_posicionamento {
-  margin-left: 30px;
-  margin-bottom: px;
+.footer img {
+  order: 1;
+  width: 30%
 }
 
-.footer_posicionamento img {
-  width: 200px;
-  float: right;
-  border-radius: 15px;
-}
-
-.section-sobremim {
-  font-size: 18px;
+.footer p {
   width: 50%;
-  line-height: 30px;
-  padding: 20px;
-  background-color: #b4a8e0;
-  margin-top: 20px;
-  border-radius: 15px;
-  border: solid 2px #474745;
 }
 
-.texto_centralizado {
-  text-align: center;
-}
-
-.ola {
-  font-size: 1.5em;
-}
-
-.section-sobremim img {
-  position: absolute;
-  left: 105px;
-  top: 79%;
-}
-
-.projetos {
-  background-color: #94c691;
-  border-radius: 15px;
-  border: solid 2px #474745;
-  font-size: 18px;
-}

@@ -16,7 +16,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- CSS only -->
 
 </head>
 
@@ -29,10 +28,7 @@
           <a href="#sobremim">Sobre mim</a>
         </li>
         <li>
-          <a href="#competencias_socioemocionais">Competências Socioemocioais</a>
-        </li>
-        <li>
-          <a href="#habilidades_tecnicas">Habilidades Técnicas</a>
+          <a href="#competencias_socioemocionais">Competências</a>
         </li>
         <li>
           <a href="#projetos">Projetos</a>
@@ -49,113 +45,126 @@
         <h1>Karoline Kohls Stangherlin</h1>
       </div>
     </div>
-    <i class="fa fa-angle-double-down icone"></i>
+    <i class="fa fa-angle-double-down seta"></i>
   </header>
 
   <main>
     <article>
-      <section class="section-sobremim">
-        <h2 class="texto_centralizado underline" id="sobremim">Sobre mim:</h2>
-        <p>
-          <strong><span class="ola">Olá!</span></strong> <br />
-          Me chamo Karoline Kohls Stangherlin, tenho 21 anos e sou natural de
-          Santa Maria, Rio Grande do Sul, Brasil.<br />
-          Atualmente estou cursando graduação em Engenharia de controle e
-          automação na UFSM (Universidade Federal de Santa Maria) e também sou
-          aluna do curso de Desenvolvimento Web full-stack na
-          <strong>Trybe</strong>. <br />
-          Sou apaixonada por natureza, música, tecnologia e animais e
-          impulsionada por novos desafios, sempre procurando me desenvolver
-          mais para cada dia me tornar uma versão melhor de mim mesma. <br />
-        </p>
+      <section class="section-sobremim" id="sobremim">
+          <img id='eu-e-arara' src="Imagens/eu_e_arara.jpg" alt="imagem eu com uma arara">
+          <p>
+            <strong><span class="ola">Olá!</span></strong> <br />
+            Me chamo Karoline Kohls Stangherlin, tenho 21 anos e sou natural de
+            Santa Maria, Rio Grande do Sul, Brasil.<br />
+            Atualmente estou cursando graduação em Engenharia de controle e
+            automação na UFSM (Universidade Federal de Santa Maria) e também sou
+            aluna do curso de Desenvolvimento Web full-stack na
+            <strong>Trybe</strong>. <br />
+            Sou apaixonada por natureza, música, tecnologia e animais e
+            impulsionada por novos desafios, sempre procurando me desenvolver
+            mais para cada dia me tornar uma versão melhor de mim mesma. <br />
+          </p>
       </section>
 
-      <section>
-        <h2 class="texto_centralizado" id="competencias_socioemocionais">
-          Competências Socioemocionais:
-        </h2>
-
-        <ul>
-          <li>Resiliente</li>
-          <li>Empática</li>
-          <li>Curiosa</li>
-          <li>Criativa</li>
-          <li>Extrovertida</li>
-          <li>Comunicativa</li>
-          <li>Determinada</li>
-          <li>Proativa</li>
-        </ul>
-        <br />
+      <section class="competencias">
+        <section>
+          <h4 id="competencias_socioemocionais">
+            Competências Socioemocionais:
+          </h4>
+          <ul>
+            <li>Resiliente</li>
+            <li>Empática</li>
+            <li>Curiosa</li>
+            <li>Criativa</li>
+            <li>Extrovertida</li>
+            <li>Comunicativa</li>
+            <li>Determinada</li>
+            <li>Proativa</li>
+          </ul>
+          <br />
+        </section>
+        <section>
+          <h4 id="habilidades_tecnicas">
+            Habilidades Técnicas Desenvolvidas:
+          </h4>
+          <ul>
+            <li>Unix e Bash</li>
+            <li>Git e GitHub</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <br />
+        </section>
+        <section>
+          <h4>Habilidades Técnicas que Serão Desenvolvidas:</h4>
+          <ul>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>SQL</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>Python</li>
+          </ul>
+        </section>
       </section>
-
-      <section>
-        <h2 id="habilidades_tecnicas">
-          Habilidades Técnicas Desenvolvidas e em Constante Evolução:
-        </h2>
-
-        <ul>
-          <li>Unix e Bash</li>
-          <li>Git e GitHub</li>
-          <li>HTML</li>
-          <li>CSS</li>
-        </ul>
-        <br />
-      </section>
-
-      <section>
-        <h2>Habilidades Técnicas que Serão Desenvolvidas:</h2>
-
-        <ul>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>SQL</li>
-          <li>Node.js</li>
-          <li>MongoDB</li>
-          <li>Python</li>
-        </ul>
-      </section>
-
       <section class="projetos">
-        <h2 class="texto_centralizado" id="projetos">Projetos:</h2>
-        <p>
-          (Ainda não possuo nenhum projeto, mas ao decorrer do curso terão
-          vários)
-        </p>
+        <h2  id="projetos">Projetos:</h2>
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pixels Art</h5>
+            <p class="card-text">Neste projeto é possivel criar desenhos com o conceito de Pixels Art</p>
+            <a href="#" class="btn btn-primary">ir para o projeto</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </section>
-
-      <nav class="nav-links-redessociais">
-        <a href="https://www.linkedin.com/feed/" target="_blank">
-          <img class="icone_linkedin" src="Imagens/icone linkedin.png" alt="ícone do linkedin" /></a>
-        <br />
-        <a href="https://www.instagram.com/karol_kks/" target="_blank">
-          <img class="icone_insta" src="Imagens/icone instagram.png" alt="ícone do instagram" /></a>
-        <br />
-        <a href="https://github.com/KarolineKS" target="_blank">
-          <img class="icone_git" src="Imagens/icone github.png" alt="ícone do GitHub" /></a>
-      </nav>
-
+      
     </article>
-
+    
   </main>
-
+  
   <br /><br />
   <footer class="footer">
-    <div class="footer_posicionamento">
-      <img src="https://comunica.ufu.br/sites/comunica.ufu.br/files/conteudo/noticia/imagem_chamada_cat-typing.gif"
-        alt="gatinho estudando" />
-      <strong>
-        <p>
-          Este Porfólio será atualizado ao decorrer dos aprendizados no curso
-          de desenvolvimento web da Trybe, pois ainda estou em formação!
-          <br />
-          Desenvolvido por:
-          <i class="underline">Karoline Kohls Stangherlin</i>
-          <br />
-          Última data de modificação: <i class="underline">19/07/22</i>
-        </p>
-        <p><i class="underline">Email: kkohlsstangherlin@gmail.com</i></p>
-      </strong>
-    </div>
+    <nav class="nav-links-redessociais">
+      <a href="https://www.linkedin.com/feed/" target="_blank">
+        <img class="icone_linkedin" src="Imagens/icone linkedin.png" alt="ícone do linkedin" /></a>
+      <br />
+      <a href="https://www.instagram.com/karol_kks/" target="_blank">
+        <img class="icone_insta" src="Imagens/icone instagram.png" alt="ícone do instagram" /></a>
+      <br />
+      <a href="https://github.com/KarolineKS" target="_blank">
+        <img class="icone_git" src="Imagens/icone github.png" alt="ícone do GitHub" /></a>
+    </nav>
+    <img src="https://comunica.ufu.br/sites/comunica.ufu.br/files/conteudo/noticia/imagem_chamada_cat-typing.gif"
+      alt="gatinho estudando" />
+    <strong>
+       <p>
+         Este Porfólio será atualizado ao decorrer dos aprendizados no curso
+         de desenvolvimento web da Trybe, pois ainda estou em formação!
+        <br />
+         Desenvolvido por:
+        Karoline Kohls Stangherlin
+        <br />
+         Última data de modificação: <i class="underline">19/07/22
+      </p>
+      <p><i class="underline">Email: kkohlsstangherlin@gmail.com</i></p>
+    </strong>
   </footer>
 
   <!-- JavaScript Bundle with Popper -->
