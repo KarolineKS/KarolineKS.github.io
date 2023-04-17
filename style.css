@@ -5,15 +5,25 @@
 
 :root {
   --cor-primaria: #ff6f61; /* vermelho */
-  --cor-secundaria: #f4d35e; /* amarelo */
+  --cor-secundaria: #FDB813; /* amarelo */
   --cor-fundo: #f7fff7; /* branco amarelado */
 }
 
+body {
+  background-color: var(--cor-fundo);
+}
 
 /* Definindo a cor de fundo do header */
 header {
-  background-color: #FDB813;
-  padding: 20px;
+  background-color: var(--cor-primaria);
+  font-family: 'Quicksand', sans-serif;
+  width: 100vw;
+  height: calc(100vh - 60px);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* Definindo a cor do texto e do link */
@@ -23,25 +33,43 @@ header h1, header a {
 
 /* Definindo a fonte do título */
 header h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Quicksand', sans-serif;
   font-size: 36px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 0;
+} 
+
+.imagem-perfil {
+  width: 20vw;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-/* Definindo a posição do título */
-header h1 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+.saudacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Adicionando uma animação de hover no link */
-header a:hover {
-  color: #E55E37;
-  transition: color 0.3s ease-in-out;
+.nav {
+  background-color: var(--cor-secundaria);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav li, .nav a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.nav a {
+  font-size: 1.2rem;
+  padding: 0 10vw;
 }
 
 .habilidades {
@@ -104,4 +132,48 @@ header a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.seta {
+  animation: animarSeta 1s ease-in-out infinite;
+  font-size: 2rem;
+  color: var(--cor-secundaria);
+}
+
+@keyframes animarSeta {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.hand {
+  display: inline-block;
+  animation: wave 1s infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
