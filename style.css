@@ -5,7 +5,7 @@
 
 :root {
   --cor-primaria: #ff6f61; /* vermelho */
-  --cor-secundaria: #FDB813; /* amarelo */
+  --cor-secundaria: #fdb813; /* amarelo */
   --cor-fundo: #f7fff7; /* branco amarelado */
 }
 
@@ -27,8 +27,9 @@ header {
 }
 
 /* Definindo a cor do texto e do link */
-header h1, header a {
-  color: #FFF;
+header h1,
+header a {
+  color: #fff;
 }
 
 /* Definindo a fonte do título */
@@ -37,7 +38,7 @@ header h1 {
   font-size: 36px;
   text-transform: uppercase;
   letter-spacing: 2px;
-} 
+}
 
 .imagem-perfil {
   width: 20vw;
@@ -60,7 +61,8 @@ header h1 {
   list-style: none;
 }
 
-.nav li, .nav a {
+.nav li,
+.nav a {
   color: #fff;
   list-style: none;
   text-decoration: none;
@@ -79,15 +81,16 @@ header h1 {
   justify-content: center;
   background-color: var(--cor-secundaria);
   color: #fff;
+  max-height: 100vh;
 }
 
 .section-sobremim p {
   font-size: 1.2rem;
   line-height: 2;
   text-align: justify;
-  margin: 10vw;
+  margin: 5vw;
   background-color: rgba(47, 135, 168, 0.8);
-  padding: 40px;
+  padding: 6vw;
   border-radius: 10px;
 }
 
@@ -95,6 +98,49 @@ header h1 {
   width: 40vw;
   margin-left: 50px;
   height: 85vh;
+}
+
+.competencias {
+  background-color: var(--cor-primaria);
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.competencias div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.competencias h3 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+span {
+  margin-right: 20px;
+}
+
+#competencias_socioemocionais {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+  list-style: none;
+  margin-left: 100px;
+  font-size: 1rem;
+}
+
+.img-soft {
+  width: 200px;
+  height: 200px;
+  margin-top: -20px;
 }
 
 .habilidades {
@@ -159,7 +205,6 @@ header h1 {
   justify-content: center;
   align-items: center;
 }
-
 
 .seta {
   animation: animarSeta 1s ease-in-out infinite;
