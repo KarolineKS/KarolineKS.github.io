@@ -12,9 +12,7 @@
 header {
   background-color: var(--cor-primaria);
   font-family: 'Quicksand', sans-serif;
-  width: 100vw;
   height: calc(100vh - 60px);
-  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,76 +91,69 @@ header h1 {
   height: 85vh;
 }
 
-.competencias {
-  background-color: var(--cor-primaria);
-  padding: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-}
-
-.competencias div{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.competencias h3 {
-  font-size: 2.5rem;
-  margin-bottom: 50px;
-}
-
 span {
   margin-right: 20px;
-}
-
-#competencias_socioemocionais {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.7rem;
-  list-style: none;
-  margin-left: 100px;
-  font-size: 1rem;
 }
 
 .img-soft {
   width: 200px;
   height: 200px;
-  margin-top: -20px;
+  margin-left: 20px;
 }
 
 .habilidades {
-  background-color: var(--cor-primaria);
-  padding: 50px;
+  background-color: var(--cor-primaria); 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.habilidades section {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .habilidades h2 {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 50px;
   color: #fff;
+  margin-bottom: 30px
 }
 
 .icone-habilidade {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
-.icone-habilidade i {
-  font-size: 4rem;
-  color: var(--cor-secundaria);
-  margin: 20px;
-  transition: transform 0.2s ease-in-out;
+.icone-habilidade img {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
-.icone-habilidade i:hover {
+.icone-habilidade img:hover {
   transform: scale(1.2);
+}
+
+.hard-skills{
+  margin-left: 50px;
+}
+
+.competencias {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.competencias li {
+  list-style: none;
+  font-size: 1.2rem;
 }
 
 .projetos {

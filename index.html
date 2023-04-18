@@ -9,7 +9,8 @@
   <title>Portifolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -29,7 +30,7 @@
   <header class="header">
     <div class="saudacao">
       <img class="imagem-perfil" src="Imagens/eu.png" alt="Minha imagem de perfil" />
-      <h1>Bem-vindxs ao meu portfólio!</h1>
+      <h1 class="typed">Bem-vindxs ao meu portfólio!</h1>
       <h1>Prazer eu sou a Karol <span class="hand">👋</span>!</h1>
     </div>
     <i class="fa fa-angle-double-down seta"></i>
@@ -52,42 +53,61 @@
         </p>
       </section>
 
-      <section >
-        <section class="habilidades">
-          <h2>Hard Skills</h2>
-          <div class="icone-habilidade">
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-js"></i>
-            <i class="fab fa-git"></i>
-            <i class="fab fa-github"></i>
-            <i class="fab fa-node"></i>
-            <i class="fab fa-docker"></i>
-            <i class="fas fa-database"></i>
-            <i class="fab fa-react"></i>
+      <div class="habilidades">
+        <section class="hard-skills">
+          <div>
+            <h2>Hard Skills</h2>
+            <div class="icone-habilidade">
+              <img alt="Karol-Ts" height="30" width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+              <img alt="Karol-React" height="30" width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+              <img alt="Karol-HTML" height="30" width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+              <img alt="Karol-CSS" height="30" width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+              <img alt="Karol-Git" height="30" width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
+              <img alt="Karol-Docker" height="30" width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
+              <img alt="Karol-Jest" height="30" width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
+              <img alt="Karol-Tailwindcss" height="30" width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+              <img alt="Karol-Bootstrap" height="30" width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+              <img alt="Karol-NodeJs" height="30" width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+              <img alt="Karol-MySQL" height="30" width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+              <img alt="Karol-Redux" height="30" width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+              <img alt="Karol-npm" height="30" width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+              <img alt="Karol-RTL" height="30" width="40" src="https://testing-library.com/img/octopus-64x64.png">
+            </div>
           </div>
+        </section>
+        <section>
+          <img class="img-soft" src="Imagens/criatividade-soft-skills-1.gif" alt="imagem ilustrando soft skills" />
         </section>
         <section class="competencias">
           <div>
-            <h3 >
+            <h2>
               Soft Skills
-            </h3>
-            <img class="img-soft"
-              src="Imagens/criatividade-soft-skills-1.gif"
-               alt="imagem ilustrando soft skills" />
+            </h2>
+            <ul id="competencias_socioemocionais">
+              <li><span>🌱</span>Resiliente</li>
+              <li><span>🤗</span>Empática</li>
+              <li><span>📢</span>Comunicativa</li>
+              <li><span>🔍</span>Curiosa</li>
+              <li><span>💃</span>Extrovertida</li>
+              <li><span>🚀</span>Determinada</li>
+              <li><span>⚡</span>Proativa</li>
+            </ul>
           </div>
-          <ul id="competencias_socioemocionais">
-            <li><span>🌱</span>Resiliente</li>
-            <li><span>🤗</span>Empática</li>
-            <li><span>📢</span>Comunicativa</li>
-            <li><span>🔍</span>Curiosa</li>
-            <li><span>💃</span>Extrovertida</li>
-            <li><span>🚀</span>Determinada</li>
-            <li><span>⚡</span>Proativa</li>
-          </ul>
-          <br />
         </section>
-      </section>
+      </div>
       <section class="projetos">
         <h2 id="projetos">Projetos</h2>
         <div class="cards-projetos">
@@ -113,18 +133,18 @@
 
   </main>
   <footer class="footer">
-      <ul class="social-icons">
-        <li><a href="https://github.com"><i class="fab fa-github"></i></a></li>
-        <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
-      </ul>
+    <ul class="social-icons">
+      <li><a href="https://github.com"><i class="fab fa-github"></i></a></li>
+      <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
     <div class="footer-content">
       <div class="container">
         <p>&copy; <span id="ano"></span> Todos os direitos reservados a Karoline Kohls Stangherlin.</p>
       </div>
     </div>
   </footer>
-
+  <script src="typed.js"></script>
   <script src="/script.js"></script>
 </body>
 
