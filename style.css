@@ -45,24 +45,13 @@ header h1 {
 
 .nav {
   background-color: var(--cor-secundaria);
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
+  padding: 10px;
 }
 
-.nav li,
 .nav a {
   color: #fff;
-  list-style: none;
   text-decoration: none;
-  padding: 0 20px;
-}
-
-.nav a {
   font-size: 1.2rem;
-  padding: 0 10vw;
 }
 
 .section-sobremim {
@@ -169,15 +158,18 @@ span {
   color: #fff;
 }
 
-.cards-projetos {
+.section-projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow-y: auto;
+  height: 90vh;
+  max-height: 85%;
 }
 
 .card {
   box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.5);
-  margin-left: 60px;
+  margin-bottom: 40px;
 }
 
 .social-icons {
