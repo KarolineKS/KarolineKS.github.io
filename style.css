@@ -61,16 +61,16 @@ header h1 {
   justify-content: center;
   background-color: var(--cor-secundaria);
   color: #fff;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .section-sobremim p {
   font-size: 1.2rem;
   line-height: 2;
   text-align: justify;
-  margin: 5vw;
+  margin: 2vw;
   background-color: rgba(47, 135, 168, 0.8);
-  padding: 6vw;
+  padding: 2vw;
   border-radius: 10px;
 }
 
@@ -252,5 +252,27 @@ span {
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+
+/* CSS para telas menores que 1063px de largura */
+@media (max-width: 1063px) {
+  .section-sobremim {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .section-sobremim p {
+    font-size: 1rem;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .section-sobremim img {
+    width: 80%;
+    margin-left: 0;
+    margin-top: 20px;
+    height: auto;
+    max-height: 50vh;
   }
 }
