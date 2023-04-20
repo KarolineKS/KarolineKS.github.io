@@ -178,6 +178,7 @@ span {
   justify-content: center;
   gap: 1rem;
   font-size: 30px;
+  margin-left: -2rem
 }
 
 .social-icons li a {
@@ -277,7 +278,6 @@ span {
     margin-left: 0;
     margin-top: 20px;
     height: auto;
-    max-height: 50vh;
   }
 
   .img-soft {
@@ -308,6 +308,7 @@ span {
 
   .competencias h2 {
     font-size: 2rem;
+    text-align: center;
   }
    
 
@@ -321,13 +322,35 @@ span {
     text-align: center;
   }
 
-header h1 {
+  header h1 {
     font-size: 2rem;
     margin-bottom: 25px;
   }
 
   .imagem-perfil {
     width: 40vw;
+  }
+
+  .nav {
+    padding: 20px 0;
+  }
+  
+  .nav a {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .projetos {
+    padding: 20px;
+  }
+  
+  .section-projects {
+    max-height: 80%;
+  }
+  
+  .card {
+    margin: 0 auto 40px;
   }
 }
 
