@@ -102,7 +102,7 @@ span {
 }
 
 .habilidades {
-  background-color: var(--cor-primaria); 
+  background-color: var(--cor-primaria);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -121,7 +121,7 @@ span {
   text-align: center;
   font-size: 2.5rem;
   color: #fff;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 .icone-habilidade {
@@ -140,7 +140,7 @@ span {
   transform: scale(1.2);
 }
 
-.hard-skills{
+.hard-skills {
   margin-left: 50px;
 }
 
@@ -167,7 +167,6 @@ span {
   font-size: 2.5rem;
   margin-bottom: 50px;
   color: #fff;
-  
 }
 
 .cards-projetos {
@@ -178,7 +177,7 @@ span {
 
 .card {
   box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.5);
-  margin-left: 60px
+  margin-left: 60px;
 }
 
 .social-icons {
