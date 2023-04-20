@@ -1,55 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portifolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <body>
+    <nav class="nav">
+      <a href="#sobremim">Sobre mim</a>
+      <a href="#competencias_socioemocionais">Competências</a>
+      <a href="#projetos">Projetos</a>
+    </nav>
 
-</head>
+    <header class="header">
+      <div class="saudacao">
+        <img
+          class="imagem-perfil"
+          src="images/eu.png"
+          alt="Minha imagem de perfil"
+        />
+        <h1 class="typed">Bem-vindxs ao meu portfólio!</h1>
+        <h1>Prazer eu sou a Karol <span class="hand">👋</span>!</h1>
+      </div>
+      <i class="fa fa-angle-double-down seta"></i>
+    </header>
 
-<body>
-  <nav class="nav">
-    <a href="#sobremim">Sobre mim</a>
-    <a href="#competencias_socioemocionais">Competências</a>
-    <a href="#projetos">Projetos</a>
-  </nav>
-
-  <header class="header">
-    <div class="saudacao">
-      <img class="imagem-perfil" src="Imagens/eu.png" alt="Minha imagem de perfil" />
-      <h1 class="typed">Bem-vindxs ao meu portfólio!</h1>
-      <h1>Prazer eu sou a Karol <span class="hand">👋</span>!</h1>
-    </div>
-    <i class="fa fa-angle-double-down seta"></i>
-  </header>
-
-  <main>
-    <article>
+    <main>
       <section class="section-sobremim" id="sobremim">
-        <img id='eu-e-arara' src="Imagens/eu_e_arara.jpg" alt="imagem eu com uma arara">
+        <img
+          id="eu-e-arara"
+          src="images/eu_e_arara.jpg"
+          alt="imagem eu com uma arara"
+        />
         <p>
           <strong><span class="ola">Olá 🙃!</span></strong> <br />
           Me chamo Karoline Kohls Stangherlin, tenho 21 anos e sou natural de
           Santa Maria, Rio Grande do Sul, Brasil.<br />
-          Atualmente estou cursando bacharelado em ciência da computação e também sou
-          aluna do curso de Desenvolvimento Web full-stack na
+          Atualmente estou cursando bacharelado em ciência da computação e
+          também sou aluna do curso de Desenvolvimento Web full-stack na
           <strong>Trybe</strong>. <br />
           Sou apaixonada por tecnologia, natureza, trekking, música e animais,
-          impulsionada por novos desafios, sempre procurando me desenvolver
-          mais para cada dia me tornar uma versão melhor de mim mesma. <br />
+          impulsionada por novos desafios, sempre procurando me desenvolver mais
+          para cada dia me tornar uma versão melhor de mim mesma. <br />
         </p>
       </section>
 
@@ -58,44 +72,103 @@
           <div>
             <h2>Hard Skills</h2>
             <div class="icone-habilidade">
-              <img alt="Karol-Ts" height="30" width="40"
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-              <img alt="Karol-React" height="30" width="40"
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-              <img alt="Karol-HTML" height="30" width="40"
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-              <img alt="Karol-CSS" height="30" width="40"
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-              <img alt="Karol-Git" height="30" width="40"
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-              <img alt="Karol-Docker" height="30" width="40"
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
-              <img alt="Karol-Jest" height="30" width="40"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
-              <img alt="Karol-Tailwindcss" height="30" width="40"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-              <img alt="Karol-Bootstrap" height="30" width="40"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-              <img alt="Karol-NodeJs" height="30" width="40"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-              <img alt="Karol-MySQL" height="30" width="40"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-              <img alt="Karol-Redux" height="30" width="40"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
-              <img alt="Karol-npm" height="30" width="40"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
-              <img alt="Karol-RTL" height="30" width="40" src="https://testing-library.com/img/octopus-64x64.png">
+              <img
+                alt="Karol-Ts"
+                height="30"
+                width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"
+              />
+              <img
+                alt="Karol-React"
+                height="30"
+                width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+              />
+              <img
+                alt="Karol-HTML"
+                height="30"
+                width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+              />
+              <img
+                alt="Karol-CSS"
+                height="30"
+                width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+              />
+              <img
+                alt="Karol-Git"
+                height="30"
+                width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+              />
+              <img
+                alt="Karol-Docker"
+                height="30"
+                width="40"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
+              />
+              <img
+                alt="Karol-Jest"
+                height="30"
+                width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+              />
+              <img
+                alt="Karol-Tailwindcss"
+                height="30"
+                width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+              />
+              <img
+                alt="Karol-Bootstrap"
+                height="30"
+                width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+              />
+              <img
+                alt="Karol-NodeJs"
+                height="30"
+                width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              />
+              <img
+                alt="Karol-MySQL"
+                height="30"
+                width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+              />
+              <img
+                alt="Karol-Redux"
+                height="30"
+                width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+              />
+              <img
+                alt="Karol-npm"
+                height="30"
+                width="40"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+              />
+              <img
+                alt="Karol-RTL"
+                height="30"
+                width="40"
+                src="https://testing-library.com/img/octopus-64x64.png"
+              />
             </div>
           </div>
         </section>
         <section>
-          <img class="img-soft" src="Imagens/criatividade-soft-skills-1.gif" alt="imagem ilustrando soft skills" />
+          <img
+            class="img-soft"
+            src="images/criatividade-soft-skills-1.gif"
+            alt="imagem ilustrando soft skills"
+          />
         </section>
         <section class="competencias">
           <div>
-            <h2>
-              Soft Skills
-            </h2>
+            <h2>Soft Skills</h2>
             <ul id="competencias_socioemocionais">
               <li><span>🌱</span>Resiliente</li>
               <li><span>🤗</span>Empática</li>
@@ -111,41 +184,60 @@
       <section class="projetos">
         <h2 id="projetos">Projetos</h2>
         <div class="cards-projetos">
-          <div class="card" style="width: 18rem;">
-            <img src="Imagens/projeto-pixels-art.jpeg" class="card-img-top" alt="...">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/projeto-pixels-art.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body card-pj">
               <h5 class="card-title">Pixels Art</h5>
-              <p class="card-text">Neste projeto é possivel criar desenhos com pontos digitais</p>
+              <p class="card-text">
+                Neste projeto é possivel criar desenhos com pontos digitais
+              </p>
               <a href="#" class="btn-projeto">ir para o projeto</a>
             </div>
           </div>
-          <div class="cards-projetos">
-            <div class="card" style="width: 18rem;">
-              <img src="Imagens/projeto-pixels-art.jpeg" class="card-img-top" alt="...">
-              <div class="card-body card-pj">
-                <h5 class="card-title">Pixels Art</h5>
-                <p class="card-text">Neste projeto é possivel criar desenhos com pontos digitais</p>
-                <a href="#" class="btn-projeto">ir para o projeto</a>
-              </div>
+        </div>
+        <div class="cards-projetos">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/projeto-pixels-art.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body card-pj">
+              <h5 class="card-title">Pixels Art</h5>
+              <p class="card-text">
+                Neste projeto é possivel criar desenhos com pontos digitais
+              </p>
+              <a href="#" class="btn-projeto">ir para o projeto</a>
             </div>
+          </div>
+        </div>
       </section>
-    </article>
-
-  </main>
-  <footer class="footer">
-    <ul class="social-icons">
-      <li><a href="https://github.com"><i class="fab fa-github"></i></a></li>
-      <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
-    </ul>
-    <div class="footer-content">
-      <div class="container">
-        <p>&copy; <span id="ano"></span> Todos os direitos reservados a Karoline Kohls Stangherlin.</p>
+    </main>
+    <footer class="footer">
+      <ul class="social-icons">
+        <li>
+          <a href="https://github.com"><i class="fab fa-github"></i></a>
+        </li>
+        <li>
+          <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+        </li>
+      </ul>
+      <div class="footer-content">
+        <div class="container">
+          <p>
+            &copy; <span id="ano"></span> Todos os direitos reservados a
+            Karoline Kohls Stangherlin.
+          </p>
+        </div>
       </div>
-    </div>
-  </footer>
-  <script src="typed.js"></script>
-  <script src="/script.js"></script>
-</body>
-
+    </footer>
+    <script src="/script.js"></script>
+  </body>
 </html>
